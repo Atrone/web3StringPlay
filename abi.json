@@ -1,0 +1,182 @@
+{
+  "compiler": {
+      "version": "0.8.14+commit.80d49f37"
+  },
+  "language": "Solidity",
+  "output": {
+      "abi": [
+          {
+              "inputs": [
+                  {
+                      "internalType": "string",
+                      "name": "_text",
+                      "type": "string"
+                  }
+              ],
+              "stateMutability": "nonpayable",
+              "type": "constructor"
+          },
+          {
+              "inputs": [
+                  {
+                      "internalType": "string",
+                      "name": "what",
+                      "type": "string"
+                  },
+                  {
+                      "internalType": "string",
+                      "name": "where",
+                      "type": "string"
+                  }
+              ],
+              "name": "ContainWord",
+              "outputs": [
+                  {
+                      "internalType": "bool",
+                      "name": "found",
+                      "type": "bool"
+                  }
+              ],
+              "stateMutability": "pure",
+              "type": "function"
+          },
+          {
+              "inputs": [
+                  {
+                      "internalType": "string",
+                      "name": "str",
+                      "type": "string"
+                  }
+              ],
+              "name": "CountUTF8String",
+              "outputs": [
+                  {
+                      "internalType": "uint256",
+                      "name": "length",
+                      "type": "uint256"
+                  }
+              ],
+              "stateMutability": "pure",
+              "type": "function"
+          },
+          {
+              "inputs": [
+                  {
+                      "internalType": "string",
+                      "name": "what",
+                      "type": "string"
+                  },
+                  {
+                      "internalType": "string",
+                      "name": "where",
+                      "type": "string"
+                  }
+              ],
+              "name": "HowManyRepeated",
+              "outputs": [
+                  {
+                      "internalType": "uint256",
+                      "name": "",
+                      "type": "uint256"
+                  }
+              ],
+              "stateMutability": "pure",
+              "type": "function"
+          },
+          {
+              "inputs": [
+                  {
+                      "internalType": "string",
+                      "name": "str",
+                      "type": "string"
+                  },
+                  {
+                      "internalType": "uint256",
+                      "name": "startIndex",
+                      "type": "uint256"
+                  },
+                  {
+                      "internalType": "uint256",
+                      "name": "endIndex",
+                      "type": "uint256"
+                  }
+              ],
+              "name": "Substring",
+              "outputs": [
+                  {
+                      "internalType": "string",
+                      "name": "",
+                      "type": "string"
+                  }
+              ],
+              "stateMutability": "pure",
+              "type": "function"
+          },
+          {
+              "inputs": [
+                  {
+                      "internalType": "string",
+                      "name": "_text",
+                      "type": "string"
+                  }
+              ],
+              "name": "setText",
+              "outputs": [],
+              "stateMutability": "nonpayable",
+              "type": "function"
+          }
+      ],
+      "devdoc": {
+          "kind": "dev",
+          "methods": {},
+          "version": 1
+      },
+      "userdoc": {
+          "kind": "user",
+          "methods": {},
+          "version": 1
+      }
+  },
+  "settings": {
+      "compilationTarget": {
+          "contract-a066a24a1c.sol": "StringComparer"
+      },
+      "evmVersion": "london",
+      "libraries": {},
+      "metadata": {
+          "bytecodeHash": "ipfs"
+      },
+      "optimizer": {
+          "enabled": false,
+          "runs": 200
+      },
+      "remappings": []
+  },
+  "sources": {
+      "@openzeppelin/contracts/utils/Strings.sol": {
+          "keccak256": "0x32c202bd28995dd20c4347b7c6467a6d3241c74c8ad3edcbb610cd9205916c45",
+          "license": "MIT",
+          "urls": [
+              "bzz-raw://8179c356adb19e70d6b31a1eedc8c5c7f0c00e669e2540f4099e3844c6074d30",
+              "dweb:/ipfs/QmWFbivarEobbqhS1go64ootVuHfVohBseerYy9FTEd1W2"
+          ]
+      },
+      "contract-a066a24a1c.sol": {
+          "keccak256": "0xcd1ae57766658ee00bc7bca500387f3913c3d094476bdc6d9e5c99b6c6dfba0d",
+          "license": "Unlicense",
+          "urls": [
+              "bzz-raw://fb338a4c109ebd833ddacf4a06e5657a07b6e20b661e7f3cc558ded4ffdf042e",
+              "dweb:/ipfs/QmXCJMRNC27fNsHVFbbCZQ4LvNRJcga7mE1vGMpaCDe8uR"
+          ]
+      },
+      "hardhat/console.sol": {
+          "keccak256": "0x72b6a1d297cd3b033d7c2e4a7e7864934bb767db6453623f1c3082c6534547f4",
+          "license": "MIT",
+          "urls": [
+              "bzz-raw://a8cb8681076e765c214e0d51cac989325f6b98e315eaae06ee0cbd5a9f084763",
+              "dweb:/ipfs/QmNWGHi4zmjxQTYN3NMGnJd49jBT5dE4bxTdWEaDuJrC6N"
+          ]
+      }
+  },
+  "version": 1
+}
